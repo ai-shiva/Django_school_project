@@ -14,6 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.s
 BASE_DIR = Path(__file__).resolve().parent.parent
+#print("Base da_____******",__file__)
 
 
 # Quick-start development settings - unsuitable for production
@@ -38,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'staff',
-    'student'
+    'student',
+    'classes',
+    'parents'
 
 ]
 
